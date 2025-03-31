@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing Page de Ejemplo">
+    <title>Landing Page de Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Bienvenido a Nuestra Página</h1>
+            <p>Obtén más información sobre nuestros productos</p>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>¡Ofrecemos lo mejor para ti!</h2>
+            <p>Únete a nosotros y empieza a disfrutar de nuestros servicios exclusivos</p>
+            <button onclick="showForm()">Registrarme</button>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-container" id="formSection">
+        <div class="container">
+            <h2>Formulario de Registro</h2>
+            <form id="registrationForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required placeholder="Tu nombre">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" required placeholder="Tu correo electrónico">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Landing Page de Ejemplo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
